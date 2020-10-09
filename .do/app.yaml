@@ -3,7 +3,7 @@ static_sites:
 - build_command: yarn build
   environment_slug: gatsby
   github:
-    branch: main
+    branch: profile
     deploy_on_push: true
-    repo: digitalocean/sample-gatsby
+    repo: smiggs/sample-gatsby
   name: sample-gatsby
